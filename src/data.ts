@@ -4,7 +4,30 @@ export interface Project {
     github?: string;
     live?: string;
 }
+export const skills = [
+    "Java", "Spring Boot", "Node.js", "NestJS", "PHP", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Oracle", "Microservices", "REST APIs", "GraphQL", "AWS", "Azure", "Git", "Agile/Scrum", "Code Reviews", "System Design"
+];
 
+export const experience = [
+    {
+        role: "Associate Manager Development / OBDX Software Engineer",
+        company: "Allied Bank Limited ",
+        period: "2024 – Present",
+        description: "Provide technical leadership and mentorship to engineers, supporting architectural decisions."
+    },
+    {
+        role: "Senior Software Engineer",
+        company: "Invozone Pvt. Ltd ",
+        period: "2022 – 2024",
+        description: "Designed and developed scalable, API centric backend systems"
+    },
+    {
+        role: "Senior Software Engineer",
+        company: "Suave Solutions Pvt. Ltd ",
+        period: "2020 – 2022",
+        description: "Developed and maintained backend services using Node.js and PHP."
+    }
+];
 export const projects: Project[] = [
     {
         title: "Piqsol",

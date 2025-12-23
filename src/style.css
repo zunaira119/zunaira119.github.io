@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -41,4 +41,82 @@ section {
   margin-right: 1rem;
   text-decoration: none;
   color: #2563eb;
+} */
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e5e7eb;
+  --accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 span {
+  color: var(--accent);
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.primary {
+  background: var(--accent);
+  color: #000;
+}
+
+.outline {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.skills span {
+  display: inline-block;
+  background: var(--card);
+  padding: 0.5rem 0.8rem;
+  margin: 0.4rem;
+  border-radius: 6px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
