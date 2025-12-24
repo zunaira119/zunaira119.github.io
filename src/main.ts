@@ -41,8 +41,8 @@ ${hero()}
         <h3>${p.title}</h3>
         <p>${p.description}</p>
         <div class="links">
-          <a href="${p.github}" target="_blank">GitHub</a>
-          ${p.live ? `<a href="${p.live}" target="_blank">Live</a>` : ""}
+          <a class="card-colour" href="${p.github}" target="_blank">GitHub</a>
+          ${p.live ? `<a class="card-colour" href="${p.live}" target="_blank">Live</a>` : ""}
         </div>
       </div>
     `).join("")}
@@ -58,4 +58,11 @@ ${hero()}
          Zunaira Javed
        </a>
   </p>
+     <p>
+       Github:
+       <a href="https://github.com/zunaira119" target="_blank">
+         Zunaira Javed
+       </a>
+  </p>
+  
 `;

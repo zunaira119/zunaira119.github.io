@@ -120,3 +120,7 @@ section {
 .card:hover {
   transform: translateY(-5px);
 }
+
+.card-colour {
+  color: #e5e7eb;
+}
